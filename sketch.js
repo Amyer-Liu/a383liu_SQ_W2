@@ -14,8 +14,8 @@ let player = {
   y: 100,
   vx: 0,
   vy: 0,
-  w: 72,       // camel sprite width
-  h: 56,       // camel sprite height
+  w: 72,       
+  h: 56,       
   speed: 0.5,
   maxSpeed: 4,
   jumpForce: -12,
@@ -247,7 +247,7 @@ function drawFloor() {
 function drawHUD() {
   noStroke();
   fill(0, 0, 0, 120);
-  rect(8, 8, 430, 24, 6);
+  rect(8, 8, 560, 24, 6);
  
   fill(240, 220, 180);
   noStroke();
