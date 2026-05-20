@@ -259,6 +259,6 @@ function drawHUD() {
     fill(255, 160, 30);
     textSize(14);
     textAlign(CENTER, TOP);
-    text("SPEED BOOST! " + ceil(player.boostTimer / 60) + "s", width / 2, 14);
+    text("SPEED BOOST! " + ceil(player.boostTimer / 60) + "s", width / 1.5, 14);
   }
 }
