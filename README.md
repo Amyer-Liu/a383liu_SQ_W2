@@ -35,6 +35,9 @@ To run the sketch locally, open `index.html` in Google Chrome using Live Server.
 
 The console will show any errors in your sketch.
 
+**Game Mechiane**
+Use the keyboard to move the camel and jump across platforms. Landing on the speed boost platform increases the camel’s running speed for 3 seconds, controlled by a timer.
+
 ## Assets
 Two image assets are being used: background.jpg and Camel.png.
 
