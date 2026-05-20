@@ -247,7 +247,7 @@ function drawFloor() {
 function drawHUD() {
   noStroke();
   fill(0, 0, 0, 120);
-  rect(8, 8, 560, 24, 6);
+  rect(8, 8, 600, 24, 6);
  
   fill(240, 220, 180);
   noStroke();
@@ -259,6 +259,6 @@ function drawHUD() {
     fill(255, 160, 30);
     textSize(14);
     textAlign(CENTER, TOP);
-    text("SPEED BOOST! " + ceil(player.boostTimer / 60) + "s", width / 1.8, 14);
+    text("SPEED BOOST! " + ceil(player.boostTimer / 60) + "s", width / 1.5, 14);
   }
 }
